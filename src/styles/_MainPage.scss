@@ -1,0 +1,10 @@
+.infoOnCard {
+    font-family: $main-font;
+    font-size: $base-font-size;
+    margin: 0 0 0 3rem;
+    @media (max-width: 550px) {
+        font-size: $small-font-size;
+        margin: auto;
+        text-align: center
+    }
+}

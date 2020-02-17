@@ -1,0 +1,1 @@
+A small project on testing picture quality

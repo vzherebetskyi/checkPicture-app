@@ -1,0 +1,12 @@
+.footer {
+    height: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.2rem;
+    font-family: $main-font;
+    font-size: $base-font-size;
+    @media (max-width: 550px) {
+        font-size: 0.8rem;
+    }
+}

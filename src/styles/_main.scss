@@ -1,0 +1,92 @@
+.main {
+    min-height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: $background;
+    @media (max-width: 550px) {
+        margin: 0;
+    }
+}
+
+.main_2 {
+    height: 100%;
+    width: 100%;
+}
+
+.navPanel {
+    position: absolute;
+    left: 0;
+    height: 5rem;
+    width: 100%;
+    background-image: linear-gradient(to right, #000000, #c6d8ec);
+    display: flex;
+    // box-shadow: 5px 8px 8px #888888;
+    border-bottom: 2px solid white;
+    @media (max-width: 550px) {
+        height: 10rem;
+        margin: 0;
+        flex-direction: column;
+        background-image: none;
+        background-color: black;
+    }
+ h1 {
+     min-width: 150px;
+     padding: 0.3rem 1.5rem;
+     font-family: $main-font;
+     color: white;
+     @media (max-width: 550px) {
+        padding: 0.2rem 3rem;
+    }
+ }
+}
+
+.navigation {
+    margin: 0 0 0 10%;
+    width: 50%;
+    @media (max-width: 800px) {
+        width: 100%;
+        margin: 0;
+    }
+ ul {
+        display: flex;
+    }
+ li {
+        display: block;
+        margin: 0 0 0 7%;
+        padding-top: 1rem;
+        @media (max-width: 800px) {
+            margin: 0 0 0 2%;
+        }
+        @media (max-width: 550px) {
+            padding-top: 0;
+        }
+    a, p {
+        text-decoration: none;
+        color: white;
+        font-family: $main-font;
+        font-size: $base-font-size;
+        margin: 0;
+        @media (max-width: 800px) {
+            font-size: $small-font-size;
+        }
+    }
+    a {
+        border: 1px solid white;
+        padding: 0.5rem 0.8rem;
+    }
+    a:hover {
+        background-color: white;
+        color: #000000;
+    }
+    }
+    li:nth-child(2n) {
+        background-color: white;
+        width: 1px;
+        height: 1.5rem;
+        margin-top: 0.5rem;
+        @media (max-width: 550px) {
+            display: none;
+        }
+    }
+}

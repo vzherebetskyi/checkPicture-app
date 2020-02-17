@@ -1,0 +1,81 @@
+.contactsPage {
+    height: 20rem;
+    margin: 1rem;
+    padding: 5rem 0 0 2rem;
+    // background-color: $background;
+    border: 2px solid black;
+    font-family: $main-font;
+    font-size: $base-font-size;
+    @media (max-width: 550px) {
+        height: 15rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
+
+.basicContact {
+    display: flex;
+    p {
+        margin: 1rem;
+    }
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        p {
+            margin: 0;
+        }
+    }
+    @media (max-width: 550px) {
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.infoAndSocial {
+    display: flex;
+    margin-top: 2rem;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+}
+
+.additionalInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    p {
+        margin: 0 0 0 2rem;
+    }
+    @media (max-width: 1000px) {
+        margin-right: 10%;
+        p {
+            margin: 0;
+        }
+    }
+    @media (max-width: 550px) {
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+.socialMedia {
+    display: flex;
+    padding-top: 0.5rem;
+    p {
+        font-weight: bold;
+    }
+}
+
+.contactsPictures {
+    padding-left: 1rem;
+    img {
+        height: 3rem;
+        width: 3rem;
+        padding: 0 0.5rem;
+    }
+    @media (max-width: 550px) {
+        margin: auto;
+        padding: 0;
+    }
+}
